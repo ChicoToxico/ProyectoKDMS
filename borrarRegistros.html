@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Eliminar registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="uni.css">
+    <!--Para sitio DRW diseño web responsivo ADAPTATIVO a cualquier navegador y dispositivo-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="estilos_base.css">
+<link rel="icon" href="images/1.png">
+     <!-- Bootstrap core CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!-- Custom styles for this template -->    
+    <link href="css/navbar.css" rel="stylesheet">
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <script type="text/javascript" src="./demobar_files/jquery-latest.min.js"></script>
+<script type="text/javascript" src="./demobar_files/jquery.min.js"></script>
+<script type="text/javascript" src="./demobar_files/bootstrap.js"></script>
+<link type="text/css" rel="stylesheet" href="./demobar_files/bootstrap.css">
+  <script src="js/ie-emulation-modes-warning.js"></script>
+
+    </head>
+    <style >
+      input[type=text]{
+  width: 30%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 5px 0 50px 10px;
+  background:white;
+}
+.button {
+text-align: center;
+font-size:20px; 
+padding: 5px;
+color: white;
+background-color: green;
+border: none;
+border-radius: 15px;
+}
+.button:hover {
+  background-color: black;
+ -moz-box-shadow: 0px 30px orange;
+ -webkit-box-shadow: 0px 30px orange;
+ box-shadow: 0px 10px orange;
+}
+.button:active{transform: translate(5px);
+}
+    </style>
+    <header>
+<nav  class="rellen1" style=" background-color: black;" >
+  <UL>
+     <div class="navbar-header"  text-align="center"style="position:center;">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="50px" height="50px"></a></div>
+<li><a href="editar.html">Editar Registro</a></li>
+<li><a href="borrarRegistros.html"> Borrar datos </a></li>
+</UL>
+</nav>
+</header>
+    <body>
+
+<div class="jumbotron" style="color:#5ACDFF;background-color:rgba(31 ,31, 31, 0.2);
+ border-radius:25px;">
+    <br>
+    <br>
+    <center> <h2>Eliminar contenido </h2> </center>
+        </div>
+            <article> 
+                <br>
+                <center> <h3>Escribe el nuemero... </h3></center>
+                <hr align="center" width="50%" hidden="30%"heigth="24" ><br>
+
+<br>
+<center>
+    <table width="450" heigth="240" aling="center">
+        <form method="post" action="eliminar.jsp">
+            <tr>
+            <center><td> <h2>Número de cuenta</h2></td></center>
+                
+            </tr>
+            <tr>
+                <td> <input type="text" name="id_us" style="font:verdana; size: 50px;"></td>
+                
+            </tr> 
+            <tr>
+               <td > 
+                   <br>
+                   <input type="submit" value="Enviar" style="border-radius:25px; color: white; background-color: black; "> 
+               </td>
+            </tr>
+        </form>
+    </table>
+</center>
+ </article>
+ 
+<script type="js/jquery-1.11.3.min"></script>        
+ <script src="js/bootstrap.js"></script>
+
+    </body>
+</html>

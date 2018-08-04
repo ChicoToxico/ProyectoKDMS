@@ -1,0 +1,115 @@
+@charset ="utf-8";
+#proyecto{
+	margin-left: 100px;
+	border-right: 10px;
+	
+}
+body{
+	background-color: #EAF2F8;
+}
+
+nav.rellen1{
+	
+    padding-top: 0%;
+    position: fixed;
+	right: 0px;
+	z-index: 10000;
+	left: 0px;
+	top:0px;
+	background-color:black;
+	color: red;
+margin-bottom: 10px;
+width: 100%;
+max-width:10000px;
+box-shadow: 0 4px 3px rgba(0,0,0,.5);
+}
+header nav ul
+{
+	list-style: none;
+	overflow: hidden;
+}
+header nav ul li{
+	float: left;
+
+}
+header nav ul li a{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background:#0395F5; 
+}
+body{
+	background-image: url(images/home.jpg);
+      #home{
+          background: url(images/2.jpg)50% repeat fixed;
+          min-width: 1000px;         
+      } 
+      #about{
+          background: url(images/home.jpg)50% repeat fixed;
+          min-width: 1000px;         
+      } 
+      #gers{
+          background: url(images/dos.jpg)50% repeat fixed;
+          min-width: 1000px;         
+      } 
+      }
+      #home{
+          background: url(images/2.jpg) 50% repeat fixed;
+           min-width: 1000px; 
+           height: 1000px;
+           margin: 0px;
+           width: 100%;
+            max-width:1920px;
+            position: relative;  
+      }
+      
+      #about{
+          background: url(images/home.jpg) 50% repeat fixed;
+           min-width: 1000px; 
+           height: 1000px;
+           margin: 0px;
+           width: 100%;
+            max-width:1920px;
+            position: relative;  
+      }
+      
+      #gers{
+          background: url(images/dos.jpg) 50% repeat fixed;
+           min-width: 1000px; 
+           height: 1000px;
+           margin: 0px;
+           width: 100%;
+            max-width:1920px;
+            position: relative;  
+      }
+      #home article{
+        height: 458px;
+        position: absolute;
+        text-align: center;
+        top:auto;
+        width: 100%;
+      }
+      #home about{
+        height: 458px;
+        position: absolute;
+        text-align: center;
+        top:auto;
+        width: 100%;
+      }
+      #home gers{
+        height: 458px;
+        position: absolute;
+        text-align: center;
+        top:auto;
+        width: 100%;
+      }
+      p {
+        color:cyan;
+        font-size: 50px;
+      }
+      h1 h2{
+          color:red;
+      }
